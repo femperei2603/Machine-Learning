@@ -22,6 +22,27 @@ Steps:
 
 Conclusion: The SGD Regressor best fitted the model and after the conclusion we demonstrated how the predicted values are close to the actual values.
 
+## Classification on Bank Loan Dataset.
+Steps:
+1) Using the Kaggle Bank Loan Dataset we imputed 5% NaN values to replicate real life datasets.
+2) We processed the data by getting rid of the NaN values using mean, median and mode imputation.
+3) Once the dataset was ready, It was split into feature and target datasets and again into train and test datasets.
+4) Min-Max scaler was used for this dataset because of its skewed nature.
+5) The following regression techniques were used to determine which technique works for the dataset the best:
+  a) 
+  b) 
+  c) 
+  d) 
+  e) 
+  f) 
+  g) 
+  h) 
+  i) 
+  j) 
+  k) 
+
+Conclusion: The SGD Regressor best fitted the model and after the conclusion we demonstrated how the predicted values are close to the actual values.
+
 
 
 
