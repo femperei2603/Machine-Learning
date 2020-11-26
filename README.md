@@ -47,7 +47,7 @@ Steps:
 Precision Recall Curve, ROC Curve, F1 Score and ROC_AUC Score 
 Conclusion: The Linear Support Vector Model best fitted the dataset based on the ROC_AUC Score, the F1 Score and the difference between train and test score. After the conclusion we demonstrated how the predicted values are close to the actual values.
 
-### Ensemble and Dimension Reduction Machine Learning Regression Models.
+### Ensemble and Dimension Reduction Machine Learning Classification Models.
 1) Using the same dataset, in part 2, we worked on the following Ensemble models and further more performed the PCA(Principal Componenet Analysis) to reduce the dimension    and re working with the above discussed Machine Learning Models.
 2) Ensemble Modles Used: Voter Classifier: Hard & Soft, Bagging, Pasting, Adaboost on Logistic Regression and Decision Tree Regressor and Gradient Boosting.
 3) Amongst these the Bagging Decision Tree and the Pasting Decision Tree provided the best outcome with higher test scores and lesser difference in train and test scores.
