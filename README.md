@@ -19,8 +19,15 @@ Steps:
   i) SVM with RBF Kernel
   j) Decision Tree Regressor
   k) SGD Regressor
+  
+  Conclusion: The SGD Regressor best fitted the model and after the conclusion we demonstrated how the predicted values are close to the actual values.
+  
+### Ensemble and Dimension Reduction Machine Learning Regression Models.
+1) Using the same dataset, in part 2, we worked on the following Ensemble models and further more performed the PCA(Principal Componenet Analysis) to reduce the dimension    and re working with the above discussed Machine Learning Models.
+2) Ensemble Modles Used: Bagging, Pasting, Adaboost on KNN Regressor and Decision Tree Regressor and Gradient Boosting.
+3) Amongst these the Bagging Decision Tree and the Pasting Decision Tree provided the best outcome with higher test scores and lesser difference in train and test scores.
+4) The PCA reduced the dataset from 86 dimensions to 37. The result of running PCA dataset on each of this models above, including Deep Learning( Tensor Flow & Keras), and showed a reduction in train and test score thus reducing the overall precision and accuracy of the model making it not fit for this dataset.
 
-Conclusion: The SGD Regressor best fitted the model and after the conclusion we demonstrated how the predicted values are close to the actual values.
 
 ## Classification on Bank Loan Dataset.
 Steps:
@@ -40,6 +47,10 @@ Steps:
 Precision Recall Curve, ROC Curve, F1 Score and ROC_AUC Score 
 Conclusion: The Linear Support Vector Model best fitted the dataset based on the ROC_AUC Score, the F1 Score and the difference between train and test score. After the conclusion we demonstrated how the predicted values are close to the actual values.
 
-
+### Ensemble and Dimension Reduction Machine Learning Regression Models.
+1) Using the same dataset, in part 2, we worked on the following Ensemble models and further more performed the PCA(Principal Componenet Analysis) to reduce the dimension    and re working with the above discussed Machine Learning Models.
+2) Ensemble Modles Used: Voter Classifier: Hard & Soft, Bagging, Pasting, Adaboost on Logistic Regression and Decision Tree Regressor and Gradient Boosting.
+3) Amongst these the Bagging Decision Tree and the Pasting Decision Tree provided the best outcome with higher test scores and lesser difference in train and test scores.
+4) The PCA reduced the dataset from 75 dimensions to 48. The result of running PCA dataset on each of this models above, including Deep Learning( Tensor Flow & Keras), showed very less reduction in train and test accuracy score thus making it perfect fit as it would reduce the dimensionality and provide accurate results.
 
 
