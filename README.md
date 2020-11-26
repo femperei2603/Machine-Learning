@@ -29,19 +29,16 @@ Steps:
 3) Once the dataset was ready, It was split into feature and target datasets and again into train and test datasets.
 4) Min-Max scaler was used for this dataset because of its skewed nature.
 5) The following regression techniques were used to determine which technique works for the dataset the best:
-  a) 
-  b) 
-  c) 
-  d) 
-  e) 
-  f) 
-  g) 
-  h) 
-  i) 
-  j) 
-  k) 
-
-Conclusion: The SGD Regressor best fitted the model and after the conclusion we demonstrated how the predicted values are close to the actual values.
+  a) KNN Classifier
+  b) Logistic Regression
+  c) Linear Support Machine Vector
+  d) Kernalized SVM using RBF Kernel
+  e) Kernelized SVM using POLY kernel
+  f) Kernelized SVM using LINEAR kernel
+  g) Decision Tree Classifier
+6) We used different evaluation functions to analyze the models based on: Cross Validation Score, Train and Test Score, Confusion Matrix - Accuracy, Precision and Recall
+Precision Recall Curve, ROC Curve, F1 Score and ROC_AUC Score 
+Conclusion: The Linear Support Vector Model best fitted the dataset based on the ROC_AUC Score, the F1 Score and the difference between train and test score. After the conclusion we demonstrated how the predicted values are close to the actual values.
 
 
 
