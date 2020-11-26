@@ -1,5 +1,5 @@
-# Machine-Learning
-Machine Learning Algorithms Performed on various datasets and a thorough comparison of all the datasets with each other.
+# <font-color = 'red'> Machine-Learning
+Machine Learning Algorithms Performed on various datasets and a thorough comparison of all the models with each other.
 
 ## Regression on Toyota Corolla Dataset.
 Steps:
